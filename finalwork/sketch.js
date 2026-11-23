@@ -14,7 +14,7 @@ function setup() {
       y: random(height),
       vx: random(-2, 2), 
       vy: random(-1.5, 1.5), 
-            size: random(6, 12),   
+      size: random(6, 12),   
       c: color(random(100, 255), random(100, 255), random(150, 255), 200)
     });
   }
@@ -25,7 +25,7 @@ function windowResized() {
 }
 
 function draw() {
-  background(245, 248, 255);
+  background(244, 248, 255);
 
   
   for (let i = 0; i < nodes.length; i++) {
